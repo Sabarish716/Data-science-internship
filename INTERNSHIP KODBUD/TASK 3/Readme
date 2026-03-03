@@ -1,0 +1,60 @@
+# IPL Data Exploratory Analysis
+
+## Overview
+This project explores IPL cricket data to extract meaningful insights such as:
+- Most winning teams
+- Top run scorers
+- Stadium performance trends
+
+The goal is to practice Exploratory Data Analysis (EDA).
+
+---
+
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+##  Dataset
+Source: Kaggle IPL Dataset
+
+Data includes:
+- Match details
+- Team performance
+- Player statistics
+- Venue information
+
+---
+
+##  Implementation Steps
+1. Loaded dataset.
+2. Checked for missing values.
+3. Aggregated match wins by team.
+4. Calculated top run scorers.
+5. Analyzed venue trends.
+6. Visualized results using bar charts and line plots.
+
+---
+
+##  Key Insights
+- Identified the most successful IPL franchise.
+- Determined consistent top-performing batsmen.
+- Observed high-scoring stadium patterns.
+
+---
+
+##  Learning Outcome
+- Data aggregation
+- GroupBy operations
+- Insight extraction from sports data
+- Data visualization best practices
+
+---
+
+## 🚀 Future Improvements
+- Player strike rate analysis
+- Season-wise performance comparison
+- Dashboard creation using Streamlit 
