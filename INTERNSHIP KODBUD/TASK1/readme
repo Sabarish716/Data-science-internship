@@ -1,1 +1,67 @@
+#  COVID-19 Data Analysis Project
 
+## Overview
+This project analyzes COVID-19 data using Python to understand trends in:
+- Daily confirmed cases
+- Daily deaths
+- Recovery patterns
+
+The goal is to practice data loading, cleaning, and visualization using real-world time-series data.
+
+---
+
+##  Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+##  Dataset
+Source: Kaggle (Our World in Data / Johns Hopkins COVID Dataset)
+
+Dataset includes:
+- Date
+- Location (Country)
+- New Cases
+- New Deaths
+- Total Recoveries
+
+---
+
+## Implementation Steps
+1. Loaded dataset using Pandas.
+2. Converted date column to datetime format.
+3. Filtered data for a specific country (e.g., India).
+4. Handled missing values.
+5. Sorted data by date.
+6. Created line plots for trend analysis.
+
+---
+
+ **Key Insights
+- Identified major COVID waves through spikes in daily cases.
+- Observed correlation between case peaks and death rates.
+- Recovery trend showed steady improvement post peak periods.
+
+---
+
+## Output
+- Line chart of daily cases
+- Line chart of daily deaths
+- Line chart of recovery trend
+
+---
+
+##  Learning Outcome
+- Time-series data handling
+- Data cleaning techniques
+- Visual storytelling using graphs
+
+---
+
+##  Future Improvements
+- Add 7-day rolling average smoothing
+- Compare multiple countries
+- Interactive dashboard using Plotly
